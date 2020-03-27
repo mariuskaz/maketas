@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+ <title>Maketas</title>
+ <meta charset="utf-8"> 
+ <style>
+  body,html {
+	background:#303030;
+	overflow:hidden;
+  }
+  .loading {
+    background:url("loading.gif") no-repeat center;
+    background-size:contain;
+    height:15%;width:15%;
+    left:0;right:0;
+    top:0;bottom:0;
+    margin:auto;
+    position:absolute;
+  }
+  .info {
+    color:lightgray;
+    position:absolute;
+	bottom:30px;
+	left:0;right:0;
+	text-align:center;
+	width:100px;
+	margin:auto;
+  }
+</style>
+</head>
+<body scroll="no">
+<div class="loading"></div>
+<div class="info">Connecting</div>
+<script src="https://construe.herokuapp.com/cloud/connect.js"></script>
+</body>
+</html>
