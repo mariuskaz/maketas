@@ -1,2 +1,2 @@
-# maketas
-Android app for 3D furniture and interior design.
+# preview
+Preview website as android app.
